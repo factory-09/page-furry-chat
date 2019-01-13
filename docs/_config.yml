@@ -6,6 +6,14 @@ custom:
   keywords: "furry, chat, фурри, чат, фурри чат"
   info:
     url: "https://metainfo.github.io"
+  discord:
+    url: "https://discord.gg/ShMTyRr"
+  stats:
+    channels:
+      thematic: "10"
+      rp: "3"
+      voice: "6"
+    users: "1300"
 
 twitter:
   username: "metadatafdn"

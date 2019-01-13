@@ -22,7 +22,7 @@ permalink: /
 										Интересные обсуждения
 									</h4>
 									<p>
-										Сервер <strong>FURS.Chat</strong> живёт бурной жизнью.
+										Сервер <strong>{{ site.title }}</strong> живёт бурной жизнью.
 										У нас можно обсудить новости из мира науки, ИТ, индустрии игр, фильмов, книг и многое другое...
 									</p>
 								</div>
@@ -95,7 +95,7 @@ permalink: /
 										Добрая администрация
 									</h4>
 									<p>
-										Администрация <strong>FURS.Chat</strong> всегда готова выслушать Вас и открыта для принятия новых идей и пожеланий.
+										Администрация сервера <strong>{{ site.title }}</strong> всегда готова выслушать Вас и открыта для принятия новых идей и пожеланий.
 									</p>
 								</div>
 							</div>
@@ -128,7 +128,7 @@ permalink: /
 										</li>
 									</ol>
 									<p>
-										<a class="button is-success" href="https://discord.gg/ShMTyRr" target="_blank">Присоединиться</a>
+										<a class="button is-success" href="{{ site.discord.url }}" target="_blank">Присоединиться</a>
 									</p>
 								</div>
 							</div>
@@ -145,17 +145,17 @@ permalink: /
 										Каналы
 									</h4>
 									<p>
-										Сервер <strong>FURS.Chat</strong> отличается от других серверов продуманной системой каналов для общения.
+										Сервер <strong>{{ site.title }}</strong> отличается от других серверов продуманной системой каналов для общения.
 									</p>
 									<ul>
 										<li>
-											Более <span class="tag is-link">10</span> тематических каналов для общения.
+											Более <span class="tag is-link">{{ site.custom.stats.channels.thematic }}</span> тематических каналов для общения.
 										</li>
 										<li>
-											Более <span class="tag is-link">3</span> каналов для RP-тематики.
+											Более <span class="tag is-link">{{ site.custom.stats.channels.rp }}</span> каналов для RP-тематики.
 										</li>
 										<li>
-											Более <span class="tag is-link">6</span> каналов для общения при помощи голосовой связи.
+											Более <span class="tag is-link">{{ site.custom.stats.channels.voice }}</span> каналов для общения при помощи голосовой связи.
 										</li>
 									</ul>
 								</div>
@@ -186,7 +186,7 @@ permalink: /
 													<span class="tag is-dark is-large">
 														<span class="icon"><i class="fas fa-users"></i></span>
 													</span>
-													<span class="tag is-link is-large">&gt; 1000</span>
+													<span class="tag is-link is-large">&gt; {{ site.custom.stats.users }}</span>
 												</div>
 											</div>
 										</div>
