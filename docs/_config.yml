@@ -6,6 +6,7 @@ image: "https://cdn-storage.github.io/images/logos/furry.01.001.512.svg.bg.png"
 
 custom:
   keywords: "furry, chat, фурри, чат, фурри чат"
+  copyright: "<span class='meta-cr'><i class='fas fa-code'></i> with <i class='fas fa-heart' style='color: #fe6e3a;'></i> by <a title='Web Application Development Company' href='https://metadata.foundation/'><strong>METADATA</strong></a></span>"
   cdn:
     url: "https://cdn-storage.github.io"
   info:
