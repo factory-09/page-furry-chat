@@ -86,6 +86,24 @@ permalink: /
 						<article class="media">
 							<figure class="media-left">
 								<p class="image is-64x64">
+									<span class="fas fa-cogs"></span>
+								</p>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h4>
+										Новые технологии и возможности
+									</h4>
+									<p>
+										Сервер <strong>{{ site.title }}</strong> постоянно обновляется и внедряет новые возможности.
+										Мы первыми реализовали категории для каналов и первыми интегрировали потоки радио-вещания с серверов Discord на внешние источники.
+									</p>
+								</div>
+							</div>
+						</article>
+						<article class="media">
+							<figure class="media-left">
+								<p class="image is-64x64">
 									<span class="fas fa-heart"></span>
 								</p>
 							</figure>
@@ -128,7 +146,7 @@ permalink: /
 										</li>
 									</ol>
 									<p>
-										<a class="button is-success" href="{{ site.discord.url }}" target="_blank">Присоединиться</a>
+										<a class="button is-success" href="{{ site.custom.discord.url }}" target="_blank">Присоединиться</a>
 									</p>
 								</div>
 							</div>
@@ -149,7 +167,7 @@ permalink: /
 									</p>
 									<div class="field has-addons">
 										<div class="control">
-											<input id="chatUrl" class="input" type="text" value="{{ site.discord.url }}" readonly="readonly" />
+											<input id="chatUrl" class="input" type="text" value="{{ site.custom.discord.url }}" readonly="readonly" />
 										</div>
 										<div class="control">
 											<a class="button is-info ext-clipboard" data-clipboard-target="#chatUrl" title="Скопировать в буфер обмена">
