@@ -1,0 +1,33 @@
+title: "Чат FURRY / ФУРРИ"
+description: "Самый современный чат для FURRY / ФУРРИ. Интересные обсуждения, ролевые игры, ивенты, стримы, библиотека, архив изображений, добрая администрация!"
+lang: "ru_RU"
+
+custom:
+  keywords: ""
+  info:
+    url: "https://metainfo.github.io"
+
+twitter:
+  username: "metadatafdn"
+  card: "summary"
+social:
+  name: "METADATA Foundation"
+  links:
+    - https://twitter.com/metadatafdn
+    - https://vk.com/metadatafdn
+
+markdown: kramdown
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+sass:
+  style: compressed
+  sass_dir: assets/css/
+
+author:
+  name: "Kitsune Solar"
+  email: "kitsune.solar@gmail.com"
+  github: "KitsuneSolar"
+  twitter: "KitsuneSolar"

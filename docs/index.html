@@ -1,752 +1,202 @@
-<!DOCTYPE html>
-<html class="has-navbar-fixed-top" dir="ltr" lang="ru">
-<head prefix="og: http://ogp.me/ns#">
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="keywords" content="furry, chat, фурри, чат, фурри чат" />
-	<meta name="description" content="Самый современный чат для FURRY / ФУРРИ. Интересные обсуждения, ролевые игры, ивенты, стримы, библиотека, архив изображений, добрая администрация!" />
-	<meta name="copyright" content="METADATA / FOUNDATION" />
-	<meta name="theme-color" content="#f3f6f9" />
-	<title>Чат FURRY / ФУРРИ</title>
+---
+layout: home
+permalink: /
+---
 
-	<!-- meta: open graph -->
-	<meta property="og:type" content="website" />
-	<meta property="og:site_name" content="Чат FURRY / ФУРРИ" />
-	<meta property="og:title" content="Чат FURRY / ФУРРИ" />
-	<meta property="og:description" content="Самый современный чат для FURRY / ФУРРИ. Интересные обсуждения, ролевые игры, ивенты, стримы, библиотека, архив изображений, добрая администрация!" />
-	<meta property="og:image" content="https://furs.chat/engine/images/logo.png" />
-	<meta property="og:url" content="https://furs.chat" />
-	<!-- / meta: open graph -->
-
-	<!-- meta: twitter -->
-	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:title" content="Чат FURRY / ФУРРИ" />
-	<meta name="twitter:description" content="Самый современный чат для FURRY / ФУРРИ. Интересные обсуждения, ролевые игры, ивенты, стримы, библиотека, архив изображений, добрая администрация!" />
-	<meta name="twitter:image" content="https://furs.chat/engine/images/logo.png" />
-	<meta name="twitter:site" content="@metadatafdn" />
-	<meta name="twitter:creator" content="@metadatafdn" />
-	<!-- / meta: twitter -->
-
-	<!-- styles -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&amp;subset=cyrillic" />
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&amp;subset=cyrillic" />
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700&amp;subset=cyrillic" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css" />
-	<link rel="stylesheet" href="https://cdn-storage.github.io/styles/theme/theme.css" />
-	<link rel="stylesheet" href="engine/styles/theme.css" />
-	<!-- / styles -->
-
-	<!-- favicon -->
-	<link rel="icon" type="image/x-icon" href="favicon.ico" />
-	<!-- / favicon -->
-</head>
-<body itemscope itemtype="http://schema.org/WebPage">
-<!-- navigation -->
-<nav class="navbar has-shadow is-fixed-top is-transparent" itemscope itemtype="http://schema.org/SiteNavigationElement">
-	<div class="navbar-brand">
-		<h1 class="navbar-item">
-			Чат FURRY / ФУРРИ
-		</h1>
-		<a class="navbar-burger burger" role="button" data-target="navMenu" aria-label="menu" aria-expanded="false">
-			<span></span>
-			<span></span>
-			<span></span>
-		</a>
-	</div>
-	<div id="navMenu" class="navbar-menu">
-		<div class="navbar-end">
-			<a class="navbar-item ext-scroll" href="#section-main" itemprop="url">
-				<span itemprop="name">Главная</span>
-			</a>
-			<a class="navbar-item ext-scroll" href="#section-info" itemprop="url">
-				<span itemprop="name">Информация</span>
-			</a>
-			<a class="navbar-item ext-scroll" href="#section-connect" itemprop="url">
-				<span itemprop="name">Подключение</span>
-			</a>
-			<a class="navbar-item ext-scroll" href="#section-stats" itemprop="url">
-				<span itemprop="name">Статистика</span>
-			</a>
-			<a class="navbar-item ext-scroll" href="#section-ranking" itemprop="url">
-				<span itemprop="name">Рейтинг</span>
-			</a>
-			<a class="navbar-item ext-scroll" href="#section-team" itemprop="url">
-				<span itemprop="name">Команда</span>
-			</a>
-			<div class="navbar-item has-dropdown is-hoverable">
-				<a class="navbar-link">
-					Наши ресурсы
-				</a>
-				<div class="navbar-dropdown is-boxed">
-					<a class="navbar-item" href="https://whatisfurry.pro/" itemprop="url">
-						<span itemprop="name">О ФУРРИ</span>
-					</a>
-					<a class="navbar-item" href="https://furcode.pro/" itemprop="url">
-						<span itemprop="name">ФурКод</span>
-					</a>
-					<a class="navbar-item" href="https://furryradio.pro/" itemprop="url">
-						<span itemprop="name">Радио</span>
-					</a>
-					<a class="navbar-item" href="https://furs.network/" itemprop="url">
-						<span itemprop="name">Сообщество</span>
-					</a>
-				</div>
-			</div>
-			<div class="navbar-item">
-				<a title="Присоединиться" class="button is-success" href="https://discord.gg/ShMTyRr" target="_blank">
-					<span>Войти</span>
-					<span class="icon"><span class="fas fa-sign-in-alt"></span></span>
-				</a>
-			</div>
-		</div>
-	</div>
-</nav>
-<!-- / navigation -->
-
-<!-- section-main -->
-<section id="section-main" class="hero is-fullheight">
-	<div class="hero-body">
-		<div class="container box">
-			<h2 class="title">
-				Чат FURRY / ФУРРИ
-			</h2>
-			<div class="columns">
-				<!-- block -->
-				<div class="column">
-					<article class="content">
-						<figure class="logo">
-							<img src="https://cdn-storage.github.io/images/logo.furs.01.001.512.min.svg" alt="FURS Logo" />
-						</figure>
-						<p>
-							Добро пожаловать на один из лучших серверов для FURRY (ФУРРИ).
-						</p>
-						<p>
-							У нас ты можешь найти друзей по интересам, узнать много нового и необычного, рассказать о своем увлечении или навыке в прямом эфире на нашем радио.
-							Посмотреть более подробную информацию, а также ознакомится с правилами поведения, ты можешь на страницах:
-						</p>
-						<ul>
-							<li>
-								<a href="https://web.furs.wiki/view/FURS" target="_blank">Платформа FURS</a>
-							</li>
-							<li>
-								<a href="https://web.furs.wiki/view/FURS.Chat" target="_blank">Чат FURS</a>
-							</li>
-						</ul>
-						<p>
-							<strong>Главное будь дружелюбным</strong> по отношению к другим участникам и тогда никаких проблем не будет.
-						</p>
-					</article>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
-<!-- / section-main -->
-
-<!-- section-info -->
-<section id="section-info" class="hero is-fullheight">
-	<div class="hero-body">
-		<div class="container box">
-			<h2 class="title">
-				Информация
-			</h2>
-			<div class="columns">
-				<!-- block -->
-				<div class="column">
-					<article class="media">
-						<figure class="media-left">
-							<p class="image is-64x64">
-								<span class="fas fa-comments"></span>
-							</p>
-						</figure>
-						<div class="media-content">
-							<div class="content">
-								<h4>
-									Интересные обсуждения
-								</h4>
-								<p>
-									Сервер <strong>FURS.Chat</strong> живёт бурной жизнью.
-									У нас можно обсудить новости из мира науки, ИТ, индустрии игр, фильмов, книг и многое другое...
+<main id="page-wrapper">
+	<!-- section-main -->
+	<section id="section-main" class="section">
+		<div class="container">
+			<div class="box">
+				<div class="columns">
+					<div class="column">
+						<article class="media">
+							<figure class="media-left">
+								<p class="image is-64x64">
+									<span class="fas fa-glass-cheers"></span>
 								</p>
-							</div>
-						</div>
-					</article>
-				</div>
-				<!-- / block -->
-				<!-- block -->
-				<div class="column">
-					<article class="media">
-						<figure class="media-left">
-							<p class="image is-64x64">
-								<span class="fas fa-user-secret"></span>
-							</p>
-						</figure>
-						<div class="media-content">
-							<div class="content">
-								<h4>
-									Ролевые игры
-								</h4>
-								<p>
-									<strong>Ролевые игры</strong> - неотъемлемая часть любого сервера.
-									Только у нас имеется ролевая игра под названием <strong>Serenity</strong>,
-									которая позволяет полностью погрузиться в мир космических путешествий.
-								</p>
-							</div>
-						</div>
-					</article>
-				</div>
-				<!-- / block -->
-			</div>
-			<div class="columns">
-				<!-- block -->
-				<div class="column">
-					<article class="media">
-						<figure class="media-left">
-							<p class="image is-64x64">
-								<span class="fas fa-calendar"></span>
-							</p>
-						</figure>
-						<div class="media-content">
-							<div class="content">
-								<h4>
-									Ивенты
-								</h4>
-								<p>
-									На нашем сервере постоянно проводятся различные мероприятия:
-									радио-эфиры, интересные передачи, совместные просмотры мультфильмов и фильмов.
-								</p>
-							</div>
-						</div>
-					</article>
-				</div>
-				<!-- / block -->
-				<!-- block -->
-				<div class="column">
-					<article class="media">
-						<figure class="media-left">
-							<p class="image is-64x64">
-								<span class="fas fa-gamepad"></span>
-							</p>
-						</figure>
-						<div class="media-content">
-							<div class="content">
-								<h4>
-									Стримы
-								</h4>
-								<p>
-									На нашем канале
-									<a href="https://furs.stream/"><strong>FURS.Stream</strong></a> проводится потоковое вещание
-									<strong>радио-передач</strong> и <strong>Let's Play</strong>-ев.
-								</p>
-							</div>
-						</div>
-					</article>
-				</div>
-				<!-- / block -->
-			</div>
-			<div class="columns">
-				<!-- block -->
-				<div class="column">
-					<article class="media">
-						<figure class="media-left">
-							<p class="image is-64x64">
-								<span class="fas fa-book"></span>
-							</p>
-						</figure>
-						<div class="media-content">
-							<div class="content">
-								<h4>
-									Интеграция с ресурсами FURS
-								</h4>
-								<p>
-									Наш сервер интегрирован с библиотекой
-									<a href="https://library.furs.wiki/"><strong>FURS / LIBRARY</strong></a>,
-									а также остальными ресурсами сети <strong>FURS</strong>.
-									Все изменения автоматически публикуются в специальном канале
-									<strong>FURS.Chat</strong>'а,
-									поэтому Вы не пропустите ни одного события.
-								</p>
-							</div>
-						</div>
-					</article>
-				</div>
-				<!-- / block -->
-				<!-- block -->
-				<div class="column">
-					<article class="media">
-						<figure class="media-left">
-							<p class="image is-64x64">
-								<span class="fas fa-images"></span>
-							</p>
-						</figure>
-						<div class="media-content">
-							<div class="content">
-								<h4>
-									Архив изображений
-								</h4>
-								<p>
-									На нашем сервере имеется большая галерея изображений, которая постоянно пополняется новыми элементами.
-									Присутствуют закрытые специализированные каналы с NU- и YIFF-содержанием.
-								</p>
-							</div>
-						</div>
-					</article>
-				</div>
-				<!-- / block -->
-			</div>
-			<div class="columns">
-				<!-- block -->
-				<div class="column">
-					<article class="media">
-						<figure class="media-left">
-							<p class="image is-64x64">
-								<span class="fas fa-cogs"></span>
-							</p>
-						</figure>
-						<div class="media-content">
-							<div class="content">
-								<h4>
-									Новые технологии и возможности
-								</h4>
-								<p>
-									Сервер
-									<strong>FURS.Chat</strong> постоянно обновляется и внедряет новые возможности.
-									Мы первыми реализовали категории для каналов и первыми интегрировали потоки радио-вещания с серверов Discord на внешние источники.
-								</p>
-							</div>
-						</div>
-					</article>
-				</div>
-				<!-- / block -->
-				<!-- block -->
-				<div class="column">
-					<article class="media">
-						<figure class="media-left">
-							<p class="image is-64x64">
-								<span class="fas fa-heart"></span>
-							</p>
-						</figure>
-						<div class="media-content">
-							<div class="content">
-								<h4>
-									Добрая администрация
-								</h4>
-								<p>
-									Администрация
-									<strong>FURS.Chat</strong> всегда готова выслушать Вас и открыта для принятия новых идей и пожеланий.
-								</p>
-							</div>
-						</div>
-					</article>
-				</div>
-				<!-- / block -->
-			</div>
-		</div>
-	</div>
-</section>
-<!-- / section-info -->
-
-<!-- section-connect -->
-<section id="section-connect" class="hero is-fullheight">
-	<div class="hero-body">
-		<div class="container box">
-			<h2 class="title">
-				Подключение
-			</h2>
-			<div class="columns">
-				<!-- block -->
-				<div class="column">
-					<article class="content">
-						<h4>
-							Присоединиться
-						</h4>
-						<p>
-							Для присоединения к чату необходимо:
-						</p>
-						<ol>
-							<li>
-								Нажать кнопку <code>Присоединиться</code>.
-							</li>
-							<li>
-								Выбрать себе имя.
-							</li>
-							<li>
-								Получать удовольствие от общения.
-							</li>
-						</ol>
-						<p>
-							<a class="button is-success" href="https://discord.gg/ShMTyRr" target="_blank">Присоединиться</a>
-						</p>
-					</article>
-				</div>
-				<!-- / block -->
-				<!-- block -->
-				<div class="column">
-					<article class="content">
-						<h4>
-							Поделиться чатом
-						</h4>
-						<p>
-							Отправьте ссылку друзьям и знакомым, чтобы они тоже участвовали в дискуссии!
-						</p>
-						<div class="field has-addons">
-							<div class="control">
-								<input id="chatUrl" class="input" type="text" value="https://discord.gg/ShMTyRr" readonly="readonly" />
-							</div>
-							<div class="control">
-								<a class="button is-info ext-clipboard" data-clipboard-target="#chatUrl" title="Скопировать в буфер обмена">
-									<span class="icon">
-										<span class="fas fa-clipboard"></span>
-									</span>
-								</a>
-							</div>
-						</div>
-					</article>
-				</div>
-				<!-- / block -->
-			</div>
-			<div class="columns">
-				<!-- block -->
-				<div class="column">
-					<article class="content">
-						<h4>
-							Правила сервера
-						</h4>
-						<ol>
-							<li>
-								Запрещена систематическая агрессия.
-							</li>
-							<li>
-								Запрещен спам, флуд - отправка большого количества однотипных сообщений.
-							</li>
-							<li>
-								Запрещена продажа чего-либо без уведомления администрации.
-							</li>
-							<li>
-								Запрещена навязчивая реклама.
-							</li>
-						</ol>
-					</article>
-				</div>
-				<!-- / block -->
-				<!-- block -->
-				<div class="column">
-					<article class="content">
-						<h4>
-							Социальные сети
-						</h4>
-						<div class="field is-grouped">
-							<p class="control">
-								<a title="ВКонтакте" class="button is-dark" href="https://vk.com/public141977955">
-									<span class="icon"><span class="fab fa-vk"></span></span>
-								</a>
-							</p>
-							<p class="control">
-								<a title="Facebook" class="button is-dark" href="https://www.facebook.com/furs.life">
-									<span class="icon"><span class="fab fa-facebook-f"></span></span>
-								</a>
-							</p>
-							<p class="control">
-								<a title="Twitter" class="button is-dark" href="https://twitter.com/fursnetwork">
-									<span class="icon"><span class="fab fa-twitter"></span></span>
-								</a>
-							</p>
-						</div>
-					</article>
-				</div>
-				<!-- / block -->
-			</div>
-		</div>
-	</div>
-</section>
-<!-- / section-connect -->
-
-<!-- section-stats -->
-<section id="section-stats" class="hero is-fullheight">
-	<div class="hero-body">
-		<div class="container box">
-			<h2 class="title">
-				Статистика
-			</h2>
-			<div class="columns">
-				<!-- block -->
-				<div class="column">
-					<article class="content">
-						<h4>
-							Каналы
-						</h4>
-						<p>
-							Сервер
-							<strong>FURS.Chat</strong> отличается от других серверов продуманной системой каналов для общения.
-						</p>
-						<ul>
-							<li>
-								Более <span class="tag is-link">10</span> тематических каналов для общения.
-							</li>
-							<li>
-								Более <span class="tag is-link">3</span> каналов для RP-тематики.
-							</li>
-							<li>
-								Более
-								<span class="tag is-link">6</span> каналов для общения при помощи голосовой связи.
-							</li>
-						</ul>
-					</article>
-				</div>
-				<!-- / block -->
-				<!-- block -->
-				<div class="column">
-					<article class="content">
-						<h4>
-							Участники
-						</h4>
-						<p>
-							Администраторам удаётся поддерживать дружную "ламповую" атмосферу для общения.
-							Наш сервер быстро развивается и всегда рад новым участникам!
-						</p>
-						<nav class="level stats-members-count">
-							<div class="level-item has-text-centered">
-								<div>
-									<p class="heading">
-										Всего участников
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h4>
+										Интересные обсуждения
+									</h4>
+									<p>
+										Сервер <strong>FURS.Chat</strong> живёт бурной жизнью.
+										У нас можно обсудить новости из мира науки, ИТ, индустрии игр, фильмов, книг и многое другое...
 									</p>
-									<div class="tags has-addons">
-											<span class="tag is-dark is-large">
-												<span class="icon"><i class="fas fa-users"></i></span>
-											</span>
-										<span class="tag is-link is-large">&gt; 1000</span>
+								</div>
+							</div>
+						</article>
+						<article class="media">
+							<figure class="media-left">
+								<p class="image is-64x64">
+									<span class="fas fa-user-secret"></span>
+								</p>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h4>
+										Ролевые игры
+									</h4>
+									<p>
+										<strong>Ролевые игры</strong> - неотъемлемая часть любого сервера.
+										Только у нас имеется ролевая игра под названием <strong>Serenity</strong>,
+										которая позволяет полностью погрузиться в мир космических путешествий.
+									</p>
+								</div>
+							</div>
+						</article>
+						<article class="media">
+							<figure class="media-left">
+								<p class="image is-64x64">
+									<span class="fas fa-calendar"></span>
+								</p>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h4>
+										Ивенты
+									</h4>
+									<p>
+										На нашем сервере постоянно проводятся различные мероприятия:
+										радио-эфиры, интересные передачи, совместные просмотры мультфильмов и фильмов.
+									</p>
+								</div>
+							</div>
+						</article>
+						<article class="media">
+							<figure class="media-left">
+								<p class="image is-64x64">
+									<span class="fas fa-images"></span>
+								</p>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h4>
+										Архив изображений
+									</h4>
+									<p>
+										На нашем сервере имеется большая галерея изображений, которая постоянно пополняется новыми элементами.
+										Присутствуют закрытые специализированные каналы с NU- и YIFF-содержанием.
+									</p>
+								</div>
+							</div>
+						</article>
+						<article class="media">
+							<figure class="media-left">
+								<p class="image is-64x64">
+									<span class="fas fa-heart"></span>
+								</p>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h4>
+										Добрая администрация
+									</h4>
+									<p>
+										Администрация <strong>FURS.Chat</strong> всегда готова выслушать Вас и открыта для принятия новых идей и пожеланий.
+									</p>
+								</div>
+							</div>
+						</article>
+					</div>
+					<div class="column">
+						<article class="media">
+							<figure class="media-left">
+								<p class="image is-64x64">
+									<span class="fas fa-plug"></span>
+								</p>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h4>
+										Подключение
+									</h4>
+									<p>
+										Для присоединения к чату необходимо:
+									</p>
+									<ol>
+										<li>
+											Нажать кнопку <code>Присоединиться</code>.
+										</li>
+										<li>
+											Выбрать себе имя.
+										</li>
+										<li>
+											Получать удовольствие от общения.
+										</li>
+									</ol>
+									<p>
+										<a class="button is-success" href="https://discord.gg/ShMTyRr" target="_blank">Присоединиться</a>
+									</p>
+								</div>
+							</div>
+						</article>
+						<article class="media">
+							<figure class="media-left">
+								<p class="image is-64x64">
+									<span class="fas fa-comments"></span>
+								</p>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h4>
+										Каналы
+									</h4>
+									<p>
+										Сервер <strong>FURS.Chat</strong> отличается от других серверов продуманной системой каналов для общения.
+									</p>
+									<ul>
+										<li>
+											Более <span class="tag is-link">10</span> тематических каналов для общения.
+										</li>
+										<li>
+											Более <span class="tag is-link">3</span> каналов для RP-тематики.
+										</li>
+										<li>
+											Более <span class="tag is-link">6</span> каналов для общения при помощи голосовой связи.
+										</li>
+									</ul>
+								</div>
+							</div>
+						</article>
+						<article class="media">
+							<figure class="media-left">
+								<p class="image is-64x64">
+									<span class="fas fa-paw"></span>
+								</p>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h4>
+										Участники
+									</h4>
+									<p>
+										Администраторам удаётся поддерживать дружную "ламповую" атмосферу для общения.
+										Наш сервер быстро развивается и всегда рад новым участникам!
+									</p>
+									<div class="level stats-members-count">
+										<div class="level-item has-text-centered">
+											<div>
+												<p class="heading">
+													Всего участников
+												</p>
+												<div class="tags has-addons">
+													<span class="tag is-dark is-large">
+														<span class="icon"><i class="fas fa-users"></i></span>
+													</span>
+													<span class="tag is-link is-large">&gt; 1000</span>
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 							</div>
-						</nav>
-					</article>
+						</article>
+					</div>
 				</div>
-				<!-- / block -->
 			</div>
 		</div>
-	</div>
-</section>
-<!-- / section-stats -->
-
-<!-- section-ranking -->
-<section id="section-ranking" class="hero is-fullheight">
-	<div class="hero-body">
-		<div class="container box">
-			<h2 class="title">
-				Рейтинг участников
-			</h2>
-			<div class="columns">
-				<!-- block -->
-				<div class="column">
-					<article class="content">
-						<a class="button is-link" href="https://juniperbot.ru/ranking/303327594793795588" target="_blank" rel="nofollow">Открыть список активных участников</a>
-					</article>
-				</div>
-				<!-- / block -->
-			</div>
-		</div>
-	</div>
-</section>
-<!-- / section-ranking -->
-
-<!-- section-team -->
-<section id="section-team" class="hero is-fullheight">
-	<div class="hero-body">
-		<div class="container box">
-			<h2 class="title">
-				Команда
-			</h2>
-			<div class="tile is-ancestor">
-				<!-- block -->
-				<div class="tile is-parent">
-					<article class="tile is-child card" itemscope itemtype="http://schema.org/Person">
-						<div class="card-content">
-							<div class="media">
-								<figure class="media-left">
-									<p class="image is-64x64">
-										<img class="is-rounded" src="https://cdn.discordapp.com/avatars/244965799201079296/a6622b1fbeba6e300dc516076aeaec3f.png" alt="Kitsune Solar" itemprop="image" />
-									</p>
-								</figure>
-								<div class="media-content">
-									<h4 class="title is-4">
-										<a href="https://person.furs.wiki/view/Kitsune_Solar" itemprop="url"><span itemprop="name">Kitsune Solar</span></a>
-									</h4>
-									<p class="subtitle is-6 has-text-grey-light">
-										<span itemprop="jobTitle">Модератор</span>
-									</p>
-								</div>
-							</div>
-							<div class="content">
-								<p>
-									Веб-мастер и системный администратор.
-								</p>
-								<p>
-									Является автором модификаций к различным движкам сайтов и форумов.
-									В разработке использует такие CMS, как Drupal, Joomla!, WordPress, IP.Board, vBulletin и MediaWiki.
-									На этих CMS также поднимал свои проекты.
-								</p>
-							</div>
-						</div>
-					</article>
-				</div>
-				<!-- / block -->
-				<!-- block -->
-				<div class="tile is-parent">
-					<article class="tile is-child card" itemscope itemtype="http://schema.org/Person">
-						<div class="card-content">
-							<div class="media">
-								<figure class="media-left">
-									<p class="image is-64x64">
-										<img class="is-rounded" src="https://cdn.discordapp.com/avatars/295687693847887873/c3e539885b2d07fcc409dbfd8523d987.png" alt="Izoniazid" itemprop="image" />
-									</p>
-								</figure>
-								<div class="media-content">
-									<h4 class="title is-4">
-										<a href="#" itemprop="url">Izoniazid</a>
-									</h4>
-									<p class="subtitle is-6 has-text-grey-light">
-										<span itemprop="jobTitle">Инженер</span>
-									</p>
-								</div>
-							</div>
-							<div class="content">
-								<p>
-									Сооснователь сервера.
-								</p>
-							</div>
-						</div>
-					</article>
-				</div>
-				<!-- / block -->
-			</div>
-			<div class="tile is-ancestor">
-				<!-- block -->
-				<div class="tile is-parent">
-					<article class="tile is-child card" itemscope itemtype="http://schema.org/Person">
-						<div class="card-content">
-							<div class="media">
-								<figure class="media-left">
-									<p class="image is-64x64">
-										<img class="is-rounded" src="https://cdn.discordapp.com/avatars/280032038575144961/52d10966c2427c544986ed5f12014e48.png" alt="Skumen" itemprop="image" />
-									</p>
-								</figure>
-								<div class="media-content">
-									<h4 class="title is-4">
-										<a href="https://person.furs.wiki/index.php/Special:ShortUrl/d" itemprop="url"><span itemprop="name">Skumen</span></a>
-									</h4>
-									<p class="subtitle is-6 has-text-grey-light">
-										<span itemprop="jobTitle">Инженер</span>
-									</p>
-								</div>
-							</div>
-							<div class="content">
-								<p>
-									Любит различные технические примочки.
-									Изучает ОС GNU/Linux.
-									Работает дома, настраивает базовые станции сотовой связи, проверяет оборудование и правильность построения станции по проектному плану.
-								</p>
-								<p>
-									Увлекается программированием контроллеров Canny (всех поколений), радио-связью, ядерным вооружением межконтинентального типа, разработкой разных систем военного назначения и многим другим.
-								</p>
-							</div>
-						</div>
-					</article>
-				</div>
-				<!-- / block -->
-				<!-- block -->
-				<div class="tile is-parent">
-					<article class="tile is-child card" itemscope itemtype="http://schema.org/Person">
-						<div class="card-content">
-							<div class="media">
-								<figure class="media-left">
-									<p class="image is-64x64">
-										<img class="is-rounded" src="https://cdn.discordapp.com/avatars/247734710682255361/0a3618a74a3914aaadb18955f3d2cdd2.png" alt="Карамелька" itemprop="image" />
-									</p>
-								</figure>
-								<div class="media-content">
-									<h4 class="title is-4">
-										<a href="https://person.furs.wiki/index.php/Special:ShortUrl/1" itemprop="url"><span itemprop="name">Карамелька</span></a>
-									</h4>
-									<p class="subtitle is-6 has-text-grey-light">
-										<span itemprop="jobTitle">Инженер</span>
-									</p>
-								</div>
-							</div>
-							<div class="content">
-								<p>
-									Любит компьютеры, программирование.
-									Разработчик Discord-бота
-									<a href="https://juniperbot.ru/" rel="nofollow" target="_blank">JuniperBot</a>.
-								</p>
-							</div>
-						</div>
-					</article>
-				</div>
-				<!-- / block -->
-			</div>
-			<div class="tile is-ancestor">
-				<!-- block -->
-				<div class="tile is-parent">
-					<article class="tile is-child card" itemscope itemtype="http://schema.org/Person">
-						<div class="card-content">
-							<div class="media">
-								<figure class="media-left">
-									<p class="image is-64x64">
-										<img class="is-rounded" src="https://cdn.discordapp.com/avatars/223824973058408448/3d806031c767183b5e156368f0b8ac3a.png" alt="Ryu" itemprop="image" />
-									</p>
-								</figure>
-								<div class="media-content">
-									<h4 class="title is-4">
-										<a href="https://person.furs.wiki/index.php/Special:ShortUrl/f" itemprop="url"><span itemprop="name">Ryu</span></a>
-									</h4>
-									<p class="subtitle is-6 has-text-grey-light">
-										<span itemprop="jobTitle">Хранитель снов / Дворецкий</span>
-									</p>
-								</div>
-							</div>
-							<div class="content">
-								<p>
-									Художник. Живёт в Кишинёве, столице Молдавии.
-								</p>
-							</div>
-						</div>
-					</article>
-				</div>
-				<!-- / block -->
-			</div>
-		</div>
-	</div>
-</section>
-<!-- / section-team -->
-
-<!-- footer -->
-<footer class="footer has-shadow">
-	<div class="content has-text-centered">
-		<p>
-			Платформа
-			<a href="https://furs.network/"><strong>FURS</strong></a> разработана при поддержке сообщества FURRY.
-		</p>
-		<p>
-			Спасибо вам, ребята, за поддержку!
-		</p>
-		<p>
-			<span class="meta-cr">
-				<i class="fas fa-code"></i> with <i class="fas fa-heart" style="color: #fe6e3a;"></i> by <a title="Web Application Development Company" href="https://metadata.foundation/"><strong>METADATA</strong></a>
-			</span>
-		</p>
-	</div>
-</footer>
-<!-- / footer -->
-
-<!-- scripts -->
-<script src="https://cdn.jsdelivr.net/npm/jquery"></script>
-<script src="https://cdn.jsdelivr.net/npm/clipboard"></script>
-<script src="https://cdn-storage.github.io/scripts/bulma/bulma.min.js"></script>
-<script src="https://cdn-storage.github.io/scripts/theme/theme.min.js"></script>
-<script src="engine/scripts/theme.min.js"></script>
-<!-- / scripts -->
-
-</body>
-</html>
+	</section>
+</main>
