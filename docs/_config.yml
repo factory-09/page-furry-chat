@@ -18,13 +18,13 @@ custom:
     users: "1300"
 
 twitter:
-  username: "metadatafdn"
+  username: "furryfdn"
   card: "summary"
 social:
-  name: "METADATA Foundation"
+  name: "FURRY Foundation"
   links:
-    - https://twitter.com/metadatafdn
-    - https://vk.com/metadatafdn
+    - https://twitter.com/furryfdn
+    - https://vk.com/furryfdn
 
 markdown: kramdown
 
