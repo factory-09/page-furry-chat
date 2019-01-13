@@ -24,7 +24,7 @@ twitter:
   username: "furryfdn"
   card: "summary"
 social:
-  name: "FURRY Foundation"
+  name: "Чат FURRY / ФУРРИ"
   links:
     - https://twitter.com/furryfdn
     - https://vk.com/furryfdn
@@ -40,7 +40,7 @@ sass:
   sass_dir: assets/css/
 
 author:
-  name: "Kitsune Solar"
+  name: "FURRY Foundation"
   email: "kitsune.solar@gmail.com"
   github: "KitsuneSolar"
   twitter: "KitsuneSolar"
