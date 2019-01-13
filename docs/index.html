@@ -136,6 +136,35 @@ permalink: /
 						<article class="media">
 							<figure class="media-left">
 								<p class="image is-64x64">
+									<span class="fas fa-plug"></span>
+								</p>
+							</figure>
+							<div class="media-content">
+								<div class="content">
+									<h4>
+										Поделиться чатом
+									</h4>
+									<p>
+										Отправьте ссылку друзьям и знакомым, чтобы они тоже участвовали в дискуссии!
+									</p>
+									<div class="field has-addons">
+										<div class="control">
+											<input id="chatUrl" class="input" type="text" value="{{ site.discord.url }}" readonly="readonly" />
+										</div>
+										<div class="control">
+											<a class="button is-info ext-clipboard" data-clipboard-target="#chatUrl" title="Скопировать в буфер обмена">
+											<span class="icon">
+												<span class="fas fa-clipboard"></span>
+											</span>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</article>
+						<article class="media">
+							<figure class="media-left">
+								<p class="image is-64x64">
 									<span class="fas fa-comments"></span>
 								</p>
 							</figure>
