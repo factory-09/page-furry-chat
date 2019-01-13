@@ -6,9 +6,12 @@ image: "https://cdn-storage.github.io/images/logos/furry.01.001.512.svg.bg.png"
 
 custom:
   keywords: "furry, chat, фурри, чат, фурри чат"
+  cdn:
+    url: "https://cdn-storage.github.io"
   info:
     url: "https://metainfo.github.io"
   discord:
+    id: "303327594793795588"
     url: "https://discord.gg/ShMTyRr"
   stats:
     channels:
