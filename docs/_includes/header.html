@@ -42,15 +42,18 @@
 		</div>
 		<div id="navMenu" class="navbar-menu">
 			<div class="navbar-end">
-				<a class="navbar-item" href="https://juniperbot.ru/ranking/{{ site.custom.discord.id }}" target="_blank" itemprop="url">
-					<span itemprop="name">Рейтинг</span>
-				</a>
-				<a class="navbar-item" href="{{ site.custom.info.url }}/team/" target="_blank" itemprop="url">
-					<span itemprop="name">Команда</span>
-				</a>
-				<a class="navbar-item" href="{{ site.custom.info.url }}/furry/" target="_blank" itemprop="url">
-					<span itemprop="name">Сообщество</span>
-				</a>
+				<div class="navbar-item">
+					<a title="Войти" class="button is-info" href="https://login.furs.chat/" target="_blank">
+						<span>Войти</span>
+						<span class="icon"><i class="fas fa-sign-in-alt"></i></span>
+					</a>
+				</div>
+				<div class="navbar-item">
+					<a title="Регистрация" class="button is-success" href="https://register.furs.chat/" target="_blank">
+						<span>Регистрация</span>
+						<span class="icon"><i class="fas fa-user-plus"></i></span>
+					</a>
+				</div>
 			</div>
 		</div>
 	</nav>
