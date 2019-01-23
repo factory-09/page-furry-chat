@@ -5,6 +5,13 @@ logo: "https://cdn-storage.github.io/images/logos/furry.01.001.512.svg.bg.png"
 image: "https://cdn-storage.github.io/images/logos/furry.01.001.512.svg.bg.png"
 
 custom:
+  fonts:
+    - https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&amp;subset=cyrillic
+    - https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&amp;subset=cyrillic
+    - https://fonts.googleapis.com/css?family=Fira+Mono:400,700&amp;subset=cyrillic
+    - https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
+    - https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css
+
   meta:
     keywords: "furry, chat, фурри, чат, фурри чат"
     copyright: "METADATA Foundation"

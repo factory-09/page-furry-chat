@@ -32,11 +32,10 @@
 	<!-- / meta: twitter -->
 
 	<!-- styles -->
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&amp;subset=cyrillic" />
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&amp;subset=cyrillic" />
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono:400,700&amp;subset=cyrillic" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css" />
+	{% for item in site.custom.fonts %}
+		<link rel="stylesheet" href="{{ item }}" />
+	{% endfor %}
+
 	<link rel="stylesheet" href="{{ site.custom.cdn.url }}/styles/theme/theme.css" />
 	<link rel="stylesheet" href="{{ "/assets/css/theme.css" | relative_url }}" />
 	<!-- / styles -->
