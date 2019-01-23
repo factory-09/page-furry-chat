@@ -3,11 +3,14 @@ description: "Современный чат для FURRY / ФУРРИ. Инте�
 lang: "ru_RU"
 logo: "https://cdn-storage.github.io/images/logos/furry.01.001.512.svg.bg.png"
 image: "https://cdn-storage.github.io/images/logos/furry.01.001.512.svg.bg.png"
-copyright: "METADATA Foundation"
 
 custom:
-  keywords: "furry, chat, фурри, чат, фурри чат"
-  copyright: "<span class='meta-cr'><i class='fas fa-code'></i> with <i class='fas fa-heart' style='color: #fe6e3a;'></i> by <a title='Web Application Development Company' href='https://metadata.foundation/'><strong>METADATA</strong></a></span>"
+  meta:
+    keywords: "furry, chat, фурри, чат, фурри чат"
+    copyright: "METADATA Foundation"
+    theme-color: "#f3f6f9"
+  html:
+    copyright: "<span class='meta-cr'><i class='fas fa-code'></i> with <i class='fas fa-heart' style='color: #fe6e3a;'></i> by <a title='Web Application Development Company' href='https://metadata.foundation/'><strong>METADATA</strong></a></span>"
   cdn:
     url: "https://cdn-storage.github.io"
   info:
