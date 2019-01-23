@@ -4,6 +4,30 @@ lang: "ru_RU"
 logo: "https://cdn-storage.github.io/images/logos/furry.01.001.512.svg.bg.png"
 image: "https://cdn-storage.github.io/images/logos/furry.01.001.512.svg.bg.png"
 
+sass:
+  style: compressed
+  sass_dir: assets/css/
+
+twitter:
+  username: "furryfdn"
+  card: "summary"
+
+social:
+  name: "Чат FURRY / ФУРРИ"
+  links:
+  - https://twitter.com/furryfdn
+  - https://vk.com/furryfdn
+
+author:
+  name: "FURRY Foundation"
+  email: "kitsune.solar@gmail.com"
+  github: "KitsuneSolar"
+  twitter: "KitsuneSolar"
+
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
+
 custom:
   fonts:
     - https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&amp;subset=cyrillic
@@ -37,28 +61,3 @@ custom:
       rp: "3"
       voice: "6"
     users: "1300"
-
-twitter:
-  username: "furryfdn"
-  card: "summary"
-social:
-  name: "Чат FURRY / ФУРРИ"
-  links:
-    - https://twitter.com/furryfdn
-    - https://vk.com/furryfdn
-
-markdown: kramdown
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-
-sass:
-  style: compressed
-  sass_dir: assets/css/
-
-author:
-  name: "FURRY Foundation"
-  email: "kitsune.solar@gmail.com"
-  github: "KitsuneSolar"
-  twitter: "KitsuneSolar"
