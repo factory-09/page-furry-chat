@@ -11,7 +11,6 @@ custom:
     - https://fonts.googleapis.com/css?family=Fira+Mono:400,700&amp;subset=cyrillic
     - https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
     - https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css
-
   meta:
     keywords: "furry, chat, фурри, чат, фурри чат"
     copyright: "METADATA Foundation"
