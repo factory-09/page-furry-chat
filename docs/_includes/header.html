@@ -36,6 +36,10 @@
 		<link rel="stylesheet" href="{{ font }}" />
 	{% endfor %}
 
+	{% for style in site.custom.styles %}
+	<link rel="stylesheet" href="{{ style }}" />
+	{% endfor %}
+
 	<link rel="stylesheet" href="{{ "/assets/css/theme.css" | relative_url }}" />
 	<!-- / styles -->
 

@@ -10,6 +10,7 @@ custom:
     - https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i&amp;subset=cyrillic
     - https://fonts.googleapis.com/css?family=Fira+Mono:400,700&amp;subset=cyrillic
     - https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
+  styles:
     - https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css
     - https://cdn-storage.github.io/styles/theme/theme.css
   script:
