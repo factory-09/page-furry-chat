@@ -4,32 +4,16 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+	{% seo %}
+
+	<!-- custom: seo -->
 	<meta name="keywords" content="{{ site.custom.meta.keywords }}" />
-	<meta name="description" content="{{ site.description }}" />
-	<meta name="author" content="{{ site.author.name }}" />
 	<meta name="copyright" content="{{ site.custom.meta.copyright }}" />
 	<meta name="theme-color" content="{{ site.custom.meta.theme-color }}" />
-
-	<title>{{ site.title }}</title>
-
-	<!-- meta: open graph -->
-	<meta property="og:type" content="website" />
-	<meta property="og:site_name" content="{{ site.title }}" />
-	<meta property="og:title" content="{{ site.title }}" />
-	<meta property="og:description" content="{{ site.description }}" />
 	<meta property="og:image" content="{{ site.image }}" />
-	<meta property="og:url" content="{{ site.url }}" />
-	<meta property="og:locale" content="{{ site.lang }}" />
-	<!-- / meta: open graph -->
-
-	<!-- meta: twitter -->
-	<meta name="twitter:card" content="{{ site.twitter.card }}" />
-	<meta name="twitter:title" content="{{ site.title }}" />
-	<meta name="twitter:description" content="{{ site.description }}" />
 	<meta name="twitter:image" content="{{ site.image }}" />
-	<meta name="twitter:site" content="@{{ site.twitter.username }}" />
-	<meta name="twitter:creator" content="@{{ site.author.twitter }}" />
-	<!-- / meta: twitter -->
+	<!-- / custom: seo -->
 
 	<!-- styles -->
 	{% for font in site.custom.fonts %}
@@ -37,7 +21,7 @@
 	{% endfor %}
 
 	{% for style in site.custom.styles %}
-	<link rel="stylesheet" href="{{ style }}" />
+		<link rel="stylesheet" href="{{ style }}" />
 	{% endfor %}
 
 	<link rel="stylesheet" href="{{ "/assets/css/theme.css" | relative_url }}" />
