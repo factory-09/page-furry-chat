@@ -11,4 +11,4 @@
 [![Patreon](https://cdn-storage.github.io/images/badges/donate.patreon.svg)](https://patreon.com/metadata)
 [![By METADATA](https://cdn-storage.github.io/images/badges/by.metadata.svg)](https://metadata.foundation/)
 
-Страничка [furs.chat](https://furs.chat/).
+Страничка [furry.chat](https://furry.chat/).
