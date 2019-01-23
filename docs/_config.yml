@@ -13,7 +13,7 @@ custom:
   styles:
     - https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css
     - https://cdn-storage.github.io/styles/theme/theme.css
-  script:
+  scripts:
     - https://cdn.jsdelivr.net/npm/jquery
     - https://cdn.jsdelivr.net/npm/clipboard
     - https://cdn-storage.github.io/scripts/bulma/bulma.min.js
