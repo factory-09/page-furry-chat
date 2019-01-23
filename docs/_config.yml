@@ -11,6 +11,12 @@ custom:
     - https://fonts.googleapis.com/css?family=Fira+Mono:400,700&amp;subset=cyrillic
     - https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css
     - https://cdn.jsdelivr.net/npm/bulma/css/bulma.min.css
+    - https://cdn-storage.github.io/styles/theme/theme.css
+  script:
+    - https://cdn.jsdelivr.net/npm/jquery
+    - https://cdn.jsdelivr.net/npm/clipboard
+    - https://cdn-storage.github.io/scripts/bulma/bulma.min.js
+    - https://cdn-storage.github.io/scripts/theme/theme.min.js
   meta:
     keywords: "furry, chat, фурри, чат, фурри чат"
     copyright: "METADATA Foundation"
