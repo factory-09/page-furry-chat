@@ -8,19 +8,19 @@
 	{% seo %}
 
 	<!-- custom: seo -->
-	<meta name="keywords" content="{{ site.custom.meta.keywords }}" />
-	<meta name="copyright" content="{{ site.custom.meta.copyright }}" />
-	<meta name="theme-color" content="{{ site.custom.meta.theme-color }}" />
+	<meta name="keywords" content="{{ site.data.config.meta.keywords }}" />
+	<meta name="copyright" content="{{ site.data.config.meta.copyright }}" />
+	<meta name="theme-color" content="{{ site.data.config.meta.theme-color }}" />
 	<meta property="og:image" content="{{ site.image }}" />
 	<meta name="twitter:image" content="{{ site.image }}" />
 	<!-- / custom: seo -->
 
 	<!-- styles -->
-	{% for font in site.custom.fonts %}
+	{% for font in site.data.config.fonts %}
 		<link rel="stylesheet" href="{{ font }}" />
 	{% endfor %}
 
-	{% for style in site.custom.styles %}
+	{% for style in site.data.config.styles %}
 		<link rel="stylesheet" href="{{ style }}" />
 	{% endfor %}
 
